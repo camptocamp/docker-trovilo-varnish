@@ -1,3 +1,3 @@
 FROM inovex/trovilo:a4075df-dev
 
-RUN apk add varnish
+RUN apk add varnish socat
