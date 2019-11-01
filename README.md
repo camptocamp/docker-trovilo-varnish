@@ -1,1 +1,1 @@
-A trovilo image with the Varnish tools installed.
+The camptocamp/varnish image with trovilo installed
