@@ -15,4 +15,3 @@ RUN cd /tmp && \
     mv prometheus_varnish_exporter-*/prometheus_varnish_exporter /usr/local/bin && \
     rm -r prometheus_varnish_exporter-* && \
     strip /usr/local/bin/prometheus_varnish_exporter
-
