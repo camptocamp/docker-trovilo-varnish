@@ -1,4 +1,4 @@
-FROM golang:1.17.6 as builder
+FROM golang:1.17.7 as builder
 RUN go get -u github.com/inovex/trovilo/cmd/trovilo
 
 FROM camptocamp/varnish:20191121-2 as trovilo-varnish
